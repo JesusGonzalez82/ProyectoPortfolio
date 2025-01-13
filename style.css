@@ -1,0 +1,56 @@
+/* Barra de navegacion */
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: "Oswald", serif;
+}
+    
+/* Seccion Principal-Hero */
+
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-imagen-desarrollador{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 4px solid black;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615252;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 767px){
+    .navbar-brand {
+        display: none;
+    }
+}
