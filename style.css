@@ -89,13 +89,22 @@ h1{
 /* Experiencia */
 
 .experiencia{
-    padding: 40px;
+    padding: 40px 40px 60px 40px;
 }
 
-.experiencia .row div{
-    height: 250px;
-    background-color: purple;
-    border: 3px solid orange;
+.experiencia .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover{
+    color: white;
+    background-color: #0a0a23;
 }
 
 .experiencia i{
@@ -111,6 +120,16 @@ h1{
     font-weight: bold;
     margin: 10px 0;
 
+}
+
+.badges-contenedor{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges{
+    margin: 5px;
 }
 /* Responsive */
 
