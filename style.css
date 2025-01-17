@@ -47,6 +47,13 @@ h1{
     font-size: 1rem;
 }
 
+.btn-info{
+    font-size: 1.1rem;
+    margin: 20px;
+    /* font-weight: bold; */
+
+}
+
 .texto-negro{
     color: black;
 }
@@ -200,7 +207,35 @@ h1{
     margin: 10px;
 }
 
+/* Articulos */
+
+.articulos{
+    min-height: 500px;
+    padding: 30px;
+
+}
+
+.articulos .card{
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.articulos .card-header{
+    font-weight: bold;
+}
+
+
 /* Responsive */
+
+@media screen and (max-width: 400px){
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 40px;
+    }
+}
 
 @media screen and (max-width: 767px){
     .navbar-brand {
