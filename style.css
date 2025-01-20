@@ -266,14 +266,65 @@ h1{
     text-align: center;
     margin-bottom: 0;
 }
-.testimonios-footer .cliente{
+.testimonios .cliente{
     font-size: 1.5rem;
 }
-.testimonios-footer .cargo{
+.testimonios .cargo{
     font-size: 0.9rem;
     color: #615252;
 }
 
+/* contacto */
+
+.contacto .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(5, 94, 226);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button{
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover{
+    background-color: white;
+    color: black;
+}
+
+.contacto button i{
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i{
+    color: black;
+}
 
 
 /* Responsive */
@@ -290,6 +341,16 @@ h1{
 @media screen and (max-width: 767px){
     .navbar-brand {
         display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .testimonios-imagen {
+        height: 120px;
+        width: 120px;
+    }
+    .testimonios-texto{
+        font-size: 18px;
     }
 }
 
